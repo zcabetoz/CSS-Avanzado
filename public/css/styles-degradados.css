@@ -1,0 +1,20 @@
+.generic{
+    border: 2px solid black;
+    width: 380px;
+    height: 380px;
+}
+#degradado-lineal{
+    background: linear-gradient(yellow , blue , red );
+}
+#degradado-radial{
+    background: radial-gradient(circle at top right, yellow , blue , red );
+}
+#degradado-lineal-perpendicular{
+    background: repeating-linear-gradient(
+        45deg, yellow, yellow 10px, red 10px, red 20px
+    );
+}
+
+#degradado-radial-repeat{
+    background: repeating-radial-gradient(circle, blue, cyan 15%)
+}

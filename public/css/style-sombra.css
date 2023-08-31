@@ -1,0 +1,28 @@
+#first-effect {
+    font-size: 75px;
+    color: white;
+    text-shadow: 1px 1px 5px black, 0 0 22px blue;
+}
+
+p#second-effect {
+    background: coral;
+    font-size: 70px;
+    width: 400px;
+    height: 150px;
+    box-shadow: -10px 20px;
+}
+
+.tarjeta {
+    width: 300px;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px;
+}
+.numero{
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    font-size: 50px;
+}
+.titulo{
+    padding: 5px;
+}

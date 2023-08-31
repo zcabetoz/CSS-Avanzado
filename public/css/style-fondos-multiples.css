@@ -1,0 +1,52 @@
+.distribution {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#balonFutbol {
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    background: url("../assets/fondos-multiples/balon.jpg") center no-repeat;
+    background-size: contain;
+
+}
+
+#balonBasket {
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    background: url("../assets/fondos-multiples/balon2.jpg");
+    background-size: contain;
+}
+
+#comedor {
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    background: url("../assets/fondos-multiples/plato.png") center / 180px no-repeat,
+    url("../assets/fondos-multiples/mesa.jpg") center / cover no-repeat;
+}
+
+#palabras {
+    margin-top: 16px;
+    padding: 25px;
+    border: 12px solid red;
+    width: 340px;
+    height: 280px;
+    font-size: 24px;
+    background-color: mediumseagreen;
+    background-clip:content-box;
+}
+
+
+
+

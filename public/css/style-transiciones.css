@@ -1,0 +1,68 @@
+.generic {
+    width: 150px;
+    height: 150px;
+    background: indigo;
+    border-radius: 50%;
+}
+
+.transiciones {
+    transition: all 2s;
+}
+
+.transiciones:hover {
+    width: 300px;
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 200px;
+}
+
+.box {
+    height: 160px;
+    margin: 50px 200px;
+    display: flex;
+}
+
+#move-x {
+    animation: mover-derecha 4s ease infinite;
+    animation-delay: 1000ms;
+}
+
+#movimiento {
+    animation: mover 8s ease infinite;
+}
+
+@keyframes mover-derecha {
+    0% {
+        transform: translateX(0px);
+    }
+    100% {
+        transform: translateX(700px);
+        width: 50px;
+        height: 50px;
+        background: linear-gradient(120deg, indigo 0%, darkmagenta 100%);
+    }
+}
+@keyframes mover {
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(700px);
+        background: linear-gradient(120deg, indigo 0%, darkmagenta 100%);
+    }
+    50%{
+        transform: translateX(700px) translateY(150px);
+        background: linear-gradient(120deg, darkmagenta 0%, lightcoral 100%);
+    }
+    75%{
+        transform: translateX(0px) translateY(150px);
+        background: linear-gradient(120deg, lightcoral 0%, darkred 100%);
+    }
+    100%{
+        transform: translateX(0px) translateY(0px);
+    }
+}
