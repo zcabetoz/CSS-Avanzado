@@ -1,4 +1,4 @@
-#first-effect {
+#first-effect, .shadowEffect {
     font-size: 75px;
     color: white;
     text-shadow: 1px 1px 5px black, 0 0 22px blue;
