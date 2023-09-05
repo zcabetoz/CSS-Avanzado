@@ -1,0 +1,7 @@
+.columnas{
+    margin: 100px 300px;
+    column-count: 3 !important;
+    column-gap: 100px;
+    column-rule: 2px solid blue;
+    text-align: justify;
+}
